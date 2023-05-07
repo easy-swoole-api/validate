@@ -11,7 +11,7 @@ namespace EasyApi\Validate;
 
 use PHPUnit\Framework\TestCase;
 
-class ValudateFuncTest extends TestCase
+class ValidateFuncTest extends TestCase
 {
     public function testRequire()
     {
