@@ -1,0 +1,33 @@
+{
+    "name": "easyapi/validate",
+    "type": "library",
+    "description": "easyapi component",
+    "keywords": [
+        "swoole",
+        "framework",
+        "async",
+        "easyswoole"
+    ],
+    "homepage": "https://www.easyswoole.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "XueSi",
+            "email": "1592328848@qq.com"
+        }
+    ],
+    "require": {
+        "easyapi/lang": "^1.0",
+        "easyapi/component": "^1.0"
+    },
+    "require-dev": {
+        "easyswoole/phpunit": "^1.0",
+        "easyswoole/swoole-ide-helper": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyApi\\Validate\\": "src/",
+            "EasyApi\\Validate\\Tests\\": "tests/"
+        }
+    }
+}
